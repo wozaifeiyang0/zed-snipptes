@@ -1,0 +1,21 @@
+{
+  "Vue ts onMounted fun": {
+    "prefix": "onm",
+    "body": ["onMounted(async () => {", "})"],
+    "description": "create onMounted fun"
+  },
+  "Vue ts props": {
+    "prefix": "props",
+    "body": [
+      "const props = defineProps({",
+      "config: {",
+      "  type: Object,",
+      "  default: () => {",
+      "    return {}",
+      "  },",
+      "},",
+      "})"
+    ],
+    "description": "create vue3 props"
+  }
+}
