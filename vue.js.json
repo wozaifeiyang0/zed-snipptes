@@ -3,7 +3,7 @@
     "prefix": "vt",
     "body": [
       "<template>",
-      "                 <div>${1:...}</div>",
+      "   <div>${1:...}</div>",
       "</template>",
       "<script setup lang=\"ts\">",
       "",
@@ -13,12 +13,23 @@
       "</style>",
       "$0"
     ],
-    "description": "创建Vue3模板"
+    "description": "create Vue3 template"
   },
   "Vue template Scss": {
     "prefix": "vts",
-    "body": ["<template>","<div>$0</div>","</template>","<script setup lang=\"ts\">","</script>","<style scoped lang=\"scss\">","</style>"],
-    "description": "创建Vue3模版，scss"
+    "body": [
+      "<template>",
+      "<div>$0</div>",
+      "</template>",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "<style scoped lang=\"scss\">",
+      "",
+      "</style>",
+      "$0"
+    ],
+    "description": "create Vue3 template with scss"
   }
 
 }

@@ -1,7 +1,12 @@
 {
   "Vue ts onMounted fun": {
     "prefix": "onm",
-    "body": ["onMounted(async () => {", "})"],
+    "body": [
+      "import { onMounted } from 'vue'",
+      "onMounted(async () => {",
+      "",
+      "})"
+    ],
     "description": "create onMounted fun"
   },
   "Vue ts props": {
@@ -17,5 +22,26 @@
       "})"
     ],
     "description": "create vue3 props"
+  },
+  "Vue ts emits": {
+    "prefix": "emits",
+    "body": [
+      "const emits = defineEmits(['${1:...}'])",
+      "$0"
+    ],
+    "description": "create vue3 props"
+  },
+  "Vue ts watch": {
+    "prefix": "watch",
+    "body": [
+      "import { watch } from 'vue'",
+      "watch(",
+      "() => ${1:...},",
+      "() => {",
+      "",
+      "}, { immediate: true })",
+      "$0"
+    ],
+    "description": "create vue3 watch"
   }
 }
